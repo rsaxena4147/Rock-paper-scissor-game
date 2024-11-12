@@ -1,0 +1,62 @@
+*{ 
+ margin: 0;
+ padding: 0;
+}
+h1{
+    font-size: 50px;
+    color: #03c0c6;
+    text-align: center;
+    text-decoration: solid;
+    z-index: 1;
+}
+body
+{
+    background-image: url(RockPaperScissor-2880x1620_Lede.jpg);
+    background-size: cover;
+  
+}
+.paper,.rock,.scissor 
+{
+    border-radius: 100%;
+    margin-right: 6vw;
+}
+.paper img ,.rock img , .scissor img {
+    border-radius: 100%;
+    height: 30vh;
+}
+.box
+{
+    display: flex;
+    margin-top: 6vh;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.result {
+    margin-top: 5vh;
+    font-size: 5vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+ .reset img {
+   
+    height: 20vh;
+
+  
+}
+.reset {
+    margin-top: 10vh;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    
+}
+.reset button {
+    border-radius: 50%;
+}
